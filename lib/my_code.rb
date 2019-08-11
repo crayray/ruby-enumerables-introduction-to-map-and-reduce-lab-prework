@@ -34,7 +34,7 @@ end
 
 
 def reduce_to_any_true(source_array)
-    source_array.reduce {|n| n || !n }
+    source_array.reduce {|n| n}
 end
 
 # def reduce_to_any_true(source_array)
