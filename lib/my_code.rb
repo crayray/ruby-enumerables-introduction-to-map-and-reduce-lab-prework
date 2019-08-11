@@ -32,9 +32,14 @@ def reduce_to_all_true(source_array)
   source_array.reduce {|sum, e| sum && e}
 end
 
+
 def reduce_to_any_true(source_array)
-    source_array.reduce {|sum, n| sum || !n}
+    source_array.reduce {|n| n || n }
 end
+
+# def reduce_to_any_true(source_array)
+#     source_array.reduce {|sum, n| sum || !n}
+# end
 # def reduce_to_any_true(source_array)
 #     source_array.reduce {|e| !!e}
 # end
