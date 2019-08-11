@@ -34,7 +34,7 @@ end
 
 
 def reduce_to_any_true(source_array)
-    source_array.reduce {|sum, n| sum= n ? true:false}
+    source_array.reduce {|sum, n| sum= n ? true : false}
 end
 
 # def reduce_to_any_true(source_array)
